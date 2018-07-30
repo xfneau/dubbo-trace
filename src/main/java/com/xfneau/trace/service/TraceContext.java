@@ -1,6 +1,6 @@
-package com.edianzu.mall.trace.service;
+package com.xfneau.trace.service;
 
-import com.edianzu.mall.trace.TraceContent;
+import com.xfneau.trace.TraceContent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;

@@ -1,6 +1,6 @@
-package com.edianzu.mall.trace.interceptor;
+package com.xfneau.trace.interceptor;
 
-import com.edianzu.mall.trace.service.TraceContext;
+import com.xfneau.trace.service.TraceContext;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package com.edianzu.mall.trace.dubbo;
+package com.xfneau.trace.dubbo;
 
 import com.alibaba.dubbo.common.Constants;
 import com.alibaba.dubbo.common.extension.Activate;
@@ -8,8 +8,8 @@ import com.alibaba.dubbo.rpc.Invoker;
 import com.alibaba.dubbo.rpc.Result;
 import com.alibaba.dubbo.rpc.RpcContext;
 import com.alibaba.dubbo.rpc.RpcException;
-import com.edianzu.mall.trace.TraceContent;
-import com.edianzu.mall.trace.service.TraceContext;
+import com.xfneau.trace.TraceContent;
+import com.xfneau.trace.service.TraceContext;
 import java.util.Map;
 
 @Activate(group = Constants.PROVIDER)

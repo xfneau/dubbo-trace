@@ -1,7 +1,6 @@
-package com.edianzu.mall.trace.interceptor;
+package com.xfneau.trace.interceptor;
 
-import com.edianzu.mall.trace.service.TraceContext;
-import lombok.extern.slf4j.Slf4j;
+import com.xfneau.trace.service.TraceContext;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -27,7 +26,7 @@ public final class TraceInterceptor {
         TraceContext.getInstance().destroy();
     }
 
-    @Pointcut("@annotation(com.edianzu.mall.trace.annotation.Trace)")
+    @Pointcut("@annotation(com.xfneau.trace.annotation.Trace)")
     private void tracePointcut() {
     }
 

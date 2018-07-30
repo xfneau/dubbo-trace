@@ -1,2 +1,2 @@
-traceProviderFilter=com.edianzu.mall.trace.dubbo.TraceProviderFilter
-traceConsumerFilter=com.edianzu.mall.trace.dubbo.TraceConsumerFilter
+traceProviderFilter=TraceProviderFilter
+traceConsumerFilter=TraceConsumerFilter

@@ -1,4 +1,4 @@
-package com.edianzu.mall.trace;
+package com.xfneau.trace;
 
 import lombok.ToString;
 

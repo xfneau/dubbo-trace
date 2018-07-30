@@ -1,4 +1,4 @@
-package com.edianzu.mall.trace.annotation;
+package com.xfneau.trace.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
